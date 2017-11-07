@@ -2,8 +2,7 @@
 
 
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
-import random, cStringIO
-from flask import Response
+import random
 
 
 def generator_verification_code():

@@ -1,0 +1,15 @@
+Token Based Authentication
+
+Having to send the username and the password with every request is inconvenient and can be seen as a security risk even if the transport is secure HTTP, since the client application must have those credentials stored without encryption to be able to send them with the requests.
+
+An improvement over the previous solution is to use a token to authenticate requests.
+
+The idea is that the client application exchanges authentication credentials for an authentication token, and in subsequent requests just sends this token.
+
+Tokens are usually given out with an expiration time, after which they become invalid and a new token needs to be obtained. The potential damage that can be caused if a token is leaked is much smaller due to their short life span.
+
+There are many ways to implement tokens. A straightforward implementation is to generate a random sequence of characters of certain length that is stored with the user and the password in the database, possibly with an expiration date as well. The token then becomes sort of a plain text password, in that can be easily verified with a string comparison, plus a check of its expiration date.
+
+A more elaborated implementation that requires no server side storage is to use a cryptographically signed message as a token. This has the advantage that the information related to the token, namely the user for which the token was generated, is encoded in the token itself and protected against tampering with a strong cryptographic signature.
+
+Flask uses a similar approach to write secure cookies. This implementation is based on a package called itsdangerous, which I will also use here.
