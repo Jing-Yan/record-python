@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3daf7e15-a4b3-471c-9e62-3a849dc09952" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/租房攻略/crawl.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/租房攻略/guang_rent.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/租房攻略/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/租房攻略/crawl.py" afterPath="$PROJECT_DIR$/租房攻略/crawl.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,8 +51,8 @@
       <file leaf-file-name="crawl.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/租房攻略/crawl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="-244">
+              <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -97,6 +94,7 @@
         <option value="$PROJECT_DIR$/25道小程序/小于iPhone5分辨率的jpg.py" />
         <option value="$PROJECT_DIR$/25道小程序/爬取图片.py" />
         <option value="$PROJECT_DIR$/租房攻略/index.html" />
+        <option value="$PROJECT_DIR$/租房攻略/crawl.py" />
       </list>
     </option>
   </component>
@@ -107,8 +105,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="230" />
-    <option name="y" value="53" />
+    <option name="x" value="276" />
+    <option name="y" value="168" />
     <option name="width" value="1648" />
     <option name="height" value="1065" />
   </component>
@@ -373,7 +371,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="230" y="53" width="1648" height="1065" extended-state="0" />
+    <frame x="276" y="168" width="1648" height="1065" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16687657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -528,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/租房攻略/crawl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="-244">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
         </state>
       </provider>

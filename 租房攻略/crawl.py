@@ -5,6 +5,8 @@ import requests
 import csv
 import re
 
+# python 启动 python -m SimpleHTTPServer 3000
+
 # beijing
 # bei_url = "http://bj.58.com/pinpaigongyu/pn/{page}/?minprice=2000_4000"
 
