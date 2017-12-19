@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3daf7e15-a4b3-471c-9e62-3a849dc09952" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/租房攻略/crawl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/租房攻略/guang_rent.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/租房攻略/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/关于 flask/Image.py" afterPath="$PROJECT_DIR$/关于 flask/Image.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/record_python$iPhone5jpg.coverage" NAME="小于iPhone5分辨率的jpg Coverage Results" MODIFIED="1510023082567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25道小程序" />
     <SUITE FILE_PATH="coverage/record_python$test_images.coverage" NAME="test_images Coverage Results" MODIFIED="1508986997022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/关于 flask" />
-    <SUITE FILE_PATH="coverage/record_python$.coverage" NAME="爬取图片 Coverage Results" MODIFIED="1510049065683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25道小程序" />
     <SUITE FILE_PATH="coverage/record_python$test_image.coverage" NAME="test_image Coverage Results" MODIFIED="1509002214738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/关于 flask" />
     <SUITE FILE_PATH="coverage/record_python$200.coverage" NAME="生成200个激活码 Coverage Results" MODIFIED="1510020700209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25道小程序" />
     <SUITE FILE_PATH="coverage/record_python$Image.coverage" NAME="Image Coverage Results" MODIFIED="1508912660242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/关于 flask" />
+    <SUITE FILE_PATH="coverage/record_python$iPhone5jpg.coverage" NAME="小于iPhone5分辨率的jpg Coverage Results" MODIFIED="1510023082567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25道小程序" />
+    <SUITE FILE_PATH="coverage/record_python$.coverage" NAME="爬取图片 Coverage Results" MODIFIED="1510049065683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25道小程序" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -53,23 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="爬取图片.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/25道小程序/爬取图片.py">
+      <file leaf-file-name="crawl.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/租房攻略/crawl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-              <folding>
-                <element signature="e#24#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="统计单词出现次数.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/25道小程序/统计单词出现次数.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -110,6 +96,7 @@
         <option value="$PROJECT_DIR$/25道小程序/生成200个激活码.py" />
         <option value="$PROJECT_DIR$/25道小程序/小于iPhone5分辨率的jpg.py" />
         <option value="$PROJECT_DIR$/25道小程序/爬取图片.py" />
+        <option value="$PROJECT_DIR$/租房攻略/index.html" />
       </list>
     </option>
   </component>
@@ -120,8 +107,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="274" />
-    <option name="width" value="1552" />
+    <option name="x" value="230" />
+    <option name="y" value="53" />
+    <option name="width" value="1648" />
     <option name="height" value="1065" />
   </component>
   <component name="ProjectView">
@@ -147,6 +135,11 @@
               <item name="record-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="record-python" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="record-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="record-python" type="462c0819:PsiDirectoryNode" />
+              <item name="租房攻略" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -163,16 +156,17 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\record-python\租房攻略" />
+      <recent name="D:\everyday\record-python\img" />
+      <recent name="D:\everyday\record-python\25道小程序" />
+      <recent name="D:\everyday\record-python" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\everyday\record-python\img" />
       <recent name="D:\everyday\record-python" />
       <recent name="D:\everyday\record-python\25道小程序" />
       <recent name="D:\everyday\record-python\关于 flask" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\everyday\record-python\img" />
-      <recent name="D:\everyday\record-python\25道小程序" />
-      <recent name="D:\everyday\record-python" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -187,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.爬取图片">
+  <component name="RunManager">
     <configuration name="统计单词出现次数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,20 +344,18 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="5">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.test_image" />
       <item index="1" class="java.lang.String" itemvalue="Python.生成200个激活码" />
       <item index="2" class="java.lang.String" itemvalue="Python.统计单词出现次数" />
       <item index="3" class="java.lang.String" itemvalue="Python.小于iPhone5分辨率的jpg" />
-      <item index="4" class="java.lang.String" itemvalue="Python.爬取图片" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.爬取图片" />
-        <item index="1" class="java.lang.String" itemvalue="Python.小于iPhone5分辨率的jpg" />
-        <item index="2" class="java.lang.String" itemvalue="Python.生成200个激活码" />
-        <item index="3" class="java.lang.String" itemvalue="Python.统计单词出现次数" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test_image" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.小于iPhone5分辨率的jpg" />
+        <item index="1" class="java.lang.String" itemvalue="Python.生成200个激活码" />
+        <item index="2" class="java.lang.String" itemvalue="Python.统计单词出现次数" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test_image" />
       </list>
     </recent_temporary>
   </component>
@@ -381,19 +373,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="274" y="0" width="1552" height="1065" extended-state="0" />
+    <frame x="230" y="53" width="1648" height="1065" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16687657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38955387" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3265086" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17821158" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265086" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265086" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17560321" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24597855" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07834603" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30025607" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33836207" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23507462" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -402,6 +393,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07834603" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -428,76 +420,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/25道小程序/19.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/24.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/33.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/38.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/46.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/49.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/10.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/31.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/17.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/13.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/11.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/8.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/25道小程序/38.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/46.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/49.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/10.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/31.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/17.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/13.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/5.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/11.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/8.jpg" />
     <entry file="file://$PROJECT_DIR$/25道小程序/url/3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -513,151 +446,35 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/6.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/7.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/8.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/9.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/10.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/11.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/12.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/13.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/14.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/15.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/16.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/17.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/18.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/19.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/20.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/21.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/22.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/23.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/24.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/25.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/26.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/27.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/28.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/29.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/30.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/31.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/32.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/38.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/url/45.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/6.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/7.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/8.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/9.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/10.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/11.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/12.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/13.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/14.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/15.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/16.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/17.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/18.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/19.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/20.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/21.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/22.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/23.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/24.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/25.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/26.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/27.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/28.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/29.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/30.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/31.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/32.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/38.jpg" />
+    <entry file="file://$PROJECT_DIR$/25道小程序/url/45.jpg" />
     <entry file="file://$PROJECT_DIR$/25道小程序/url/2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -668,6 +485,31 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/English.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/租房攻略/guang_rent.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2704">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/25道小程序/爬取图片.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/25道小程序/统计单词出现次数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -676,21 +518,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/English.txt">
+    <entry file="file://$PROJECT_DIR$/租房攻略/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="594">
+          <caret line="229" column="24" lean-forward="true" selection-start-line="229" selection-start-column="24" selection-end-line="229" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/25道小程序/爬取图片.py">
+    <entry file="file://$PROJECT_DIR$/租房攻略/crawl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
